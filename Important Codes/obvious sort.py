@@ -4,6 +4,8 @@ import random as rd
 l=[]
 for i in range(50):
 	l.append(rd.randint(1,100))
+print(l)
+
 x=[]
 
 while (len(l)>0):
@@ -14,4 +16,4 @@ while (len(l)>0):
 	x.append(min)
 	l.remove(min)
 print(x)
-	 
+	
